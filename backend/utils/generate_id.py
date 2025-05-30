@@ -12,7 +12,3 @@ def generate_id(length=8):
     id= f"{timestamp}ED{unique_part}"
     
     return id
-
-genID= generate_id()
-
-print(genID, genID.__len__())
