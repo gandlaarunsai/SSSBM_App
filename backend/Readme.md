@@ -21,6 +21,7 @@ Flask-based backend for managing electronic donations, feedback, updates, and em
 
 ## 📁 Project Structure
 
+```pgsql
 .
 ├── app.py
 ├── requirements.txt
@@ -30,7 +31,7 @@ Flask-based backend for managing electronic donations, feedback, updates, and em
     ├── send_email.py
     ├── num_to_words.py
     └── database_creds.py
-
+```
 
 ## 🧩 Setup Instructions
 
@@ -39,26 +40,33 @@ Flask-based backend for managing electronic donations, feedback, updates, and em
 ```bash
 git clone <your-repo-url>
 cd <your-project-folder>
+```
+### 2. Create & Activate Virtual Environment
 
-##2. Create & Activate Virtual Environment
-
+```bash
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
+```
 
-## 3. Install Dependencies
+### 3. Install Dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
-## 4. Configure Database Credentials
+### 4. Configure Database Credentials
 
+```python
 myCreds = {
     'user': 'your_mysql_username',
     'password': 'your_mysql_password'
 }
 
 myDataBase = 'your_database_name'
+```
 
-## 5. Run the App
+### 5. Run the App
 
+```bash
 python app.py
-
+```
