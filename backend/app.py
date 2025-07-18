@@ -3,19 +3,23 @@ import mysql.connector
 from datetime import datetime
 from decimal import Decimal
 
+import os
+from dotenv import load_dotenv
+
 #importing database related info
-import utils.database_creds as mydatabase
 from utils.generate_id import generate_id
 from utils.send_email import send_email # function helps send email notification
 
 app = Flask(__name__)
 
+load_dotenv()
+
 # MySQL connection setup
 db_config = {
     'host': 'localhost',
-    'user': mydatabase.myCreds['user'],
-    'password': mydatabase.myCreds['password'],
-    'database': mydatabase.myDataBase
+    'user': os.getenv("DB_USER"),
+    'password': os.getenv("DB_PASSWORD"),
+    'database': os.getenv("MY_DATABASE")
 }
 
 def get_db_connection():

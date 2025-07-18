@@ -1,12 +1,17 @@
 # import util.database_creds as mycreds
+import os
+from dotenv import load_dotenv
+
 
 #libraries to send email
 import smtplib
 from email.message import EmailMessage
 
+load_dotenv()
+
 #email variables
-email_pass= "dler ywcz jibu btui"
-email_id = "gandlaarunsai@gmail.com"
+email_pass= os.getenv("EMAIL_PASS")
+email_id = os.getenv("EMAIL_ID")
 
 def send_email(to, amount, edonid):
 
