@@ -54,15 +54,15 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 4. Configure Database Credentials
+### 4. Configure the .env file with your credentials
 
-```python
-myCreds = {
-    'user': 'your_mysql_username',
-    'password': 'your_mysql_password'
-}
+```bash
+MY_DATABASE= <YOUR_DATABASE_NAME>
+DB_USER= <YOUR_DB_USERNAME>
+DB_PASSWORD= <YOUR_DB_PASSWORD>
 
-myDataBase = 'your_database_name'
+EMAIL_ID= <YOUR_EMAIL_ID>
+EMAIL_PASS= <YOUR_EMAIL_KEY>
 ```
 
 ### 5. Run the App
