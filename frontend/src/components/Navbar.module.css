@@ -1,0 +1,64 @@
+.navBar{
+    background-color: #A03800;
+    color: #f9f9f9;
+    padding: 0.625rem 1rem;
+}
+
+.navContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.navCenter {
+    display: flex;
+    gap: 2rem;
+    margin-top: 0.2rem;
+}
+
+.navLink {
+    text-decoration: none;
+    color: white;
+    font-family: 'EB Garamond', serif;
+    position: relative;
+    padding-bottom: 4px;
+}
+
+.navLink:hover{
+    font-weight: 600;
+}
+
+.NavActive {
+    text-decoration: underline;
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+    position: relative;
+    padding-bottom: 4px;
+    text-decoration-thickness: .2rem;
+    text-underline-offset: .4rem;
+}
+
+.navIcon{
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    /* margin-top: .2rem; */
+    font-family: 'inter';
+    align-items: center;
+}
+
+.customSvg{
+    fill: #DE8C60;
+    cursor: pointer;
+    transition: fill 0.3s ease;
+    margin-right: .2rem;
+}
+
+.customSvg:hover, .active{
+    fill: #EFC1A9;
+}
+
