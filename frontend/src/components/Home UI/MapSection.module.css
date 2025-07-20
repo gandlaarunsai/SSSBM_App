@@ -1,5 +1,45 @@
-.mapContainer{
+/* .mapContainer{
     background-color: #D36930;
     border-radius: 5px;
+} */
+
+.mapSection{
+    display: flex;
+    align-items: center;
+    background-color: #de6120;
+    border-radius: 1rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    color: white;
+    max-width: 64rem;
+    margin: 0 auto;
+    gap: 2rem;
 }
 
+.mapContainer{
+    flex: 1;
+    border-radius: 0.5rem;
+    overflow: hidden
+}
+
+.mapContainer iframe {
+    width: 100%;
+    height: 250px;
+    border: 0;
+}
+
+.textContainer {
+    flex: 1;
+}
+
+.textContainer h2 {
+    font-family: 'EB Garamond';
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.textContainer p {
+    font-size: smaller;
+    line-height: 1.6;
+}
