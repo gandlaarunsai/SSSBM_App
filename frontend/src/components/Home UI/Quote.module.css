@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Quicksand:wght@300..700&display=swap');
+
+.quote{
+    margin: 3rem 4rem 2rem 4rem;
+}
+
+.Qheading{
+    font-family: 'EB Garamond', serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.quote>p{
+    font-family: "Quicksand";
+    font-size: 1rem;
+    font-weight: 500;
+    padding-left: 0.3rem;
+}

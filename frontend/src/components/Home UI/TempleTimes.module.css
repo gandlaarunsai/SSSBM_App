@@ -1,0 +1,27 @@
+.timesContent{
+    width: 27rem;
+    font-family: 'Quicksand';
+    font-weight: 600;
+    font-size: smaller;
+    padding: 1rem;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    padding: 0 0.5rem;
+}
+
+.actions{
+    flex: 1;
+}
+
+.separator{
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.time{
+    flex-shrink: 0;
+}

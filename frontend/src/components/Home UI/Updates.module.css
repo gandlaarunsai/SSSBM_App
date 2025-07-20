@@ -1,0 +1,12 @@
+.updateSection{
+    display: flex;
+    flex-direction: column;
+    max-width: 29rem;
+}
+
+.Ulist{
+    font-family: 'Quicksand';
+    font-size: small;
+    font-weight: 600;
+    line-height: 1.6;
+}

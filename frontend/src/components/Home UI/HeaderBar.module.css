@@ -1,0 +1,11 @@
+.headerBar{
+    width: 27rem;
+    max-width: 27rem;
+    background-color: #C84600;
+    font-family: 'EB Garamond';
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    border-radius: 0.2rem;
+    padding: 0.2rem 1rem;
+}
