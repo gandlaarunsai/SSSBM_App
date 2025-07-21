@@ -1,0 +1,18 @@
+.footerInfoCont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+
+.footerLinks a{
+    font-family: 'EB Garamond';
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.socialMediaLinks img{
+    padding: 1rem;
+}
