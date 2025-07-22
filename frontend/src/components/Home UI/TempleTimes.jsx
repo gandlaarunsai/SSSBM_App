@@ -6,7 +6,7 @@ import { templeTimes } from "../../fakeData";
 
 export default function TempleTimings() {
     return (
-        <div>
+        <div className={classes.templeTimesContainer}>
             <HeaderBar title="Temple Timings" />
             <div className={classes.timesContent}>
                 <div className={classes.timingTable}>

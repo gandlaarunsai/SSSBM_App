@@ -1,3 +1,7 @@
+.templeTimesContainer{
+    flex: 1;
+}
+
 .timesContent{
     width: 27rem;
     font-family: 'Quicksand';

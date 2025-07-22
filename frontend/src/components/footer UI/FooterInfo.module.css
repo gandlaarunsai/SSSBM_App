@@ -13,6 +13,14 @@
     margin: 1rem;
 }
 
+.footerLinks a:hover{
+    font-weight: 900;
+}
+
 .socialMediaLinks img{
     padding: 1rem;
+}
+
+.socialMediaLinks img:hover{
+    background-color: rgb(255, 255, 255, 0.1);
 }
