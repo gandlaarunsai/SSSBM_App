@@ -9,7 +9,7 @@
     font-family: 'EB Garamond';
     text-decoration: none;
     color: white;
-    font-size: 1rem;
+    font-size: 2rem;
     margin: 1rem;
 }
 
@@ -19,6 +19,7 @@
 
 .socialMediaLinks img{
     padding: 1rem;
+    margin-top: 0.2rem;
 }
 
 .socialMediaLinks img:hover{

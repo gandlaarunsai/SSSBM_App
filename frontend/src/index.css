@@ -3,15 +3,29 @@
   padding: 0;
 }
 
+html{
+  font-size: 62.5%;
+}
+
 body {
-  margin: 0;
-  /* font-family: 'EB Garamond',serif; */
+  /* 
+    10 / 16px = 62.5%
+  */
+
+  /* font-size: 62.5%; */
   background-color: #F9F9F9;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+#root{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */

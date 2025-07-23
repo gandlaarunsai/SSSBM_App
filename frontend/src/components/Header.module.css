@@ -11,20 +11,24 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 #title{
     position: relative;
-    top: 1rem;
+    top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #title>img{
-    margin-right: .5rem;
+    margin-right: .8rem;
     width: 4rem;
+}
+
+#title>h1{
+    font-size: 2.5rem;
 }
 
 .arches{
@@ -41,5 +45,5 @@
 
 /* styling for laptop size below 1024px to 768px */
 .railings>img{
-    width: 21rem;
+    width: 30rem;
 }

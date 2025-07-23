@@ -6,9 +6,13 @@ import Footer from "../components/footer UI/Footer";
 export default function RootLayout() {
     return (
         <>
-            <Header />
-            <Navbar />
-            <Outlet />
+            <header>
+                <Header />
+                <Navbar />
+            </header>
+            <main>
+                <Outlet />
+            </main>
             <Footer />
         </>
     );

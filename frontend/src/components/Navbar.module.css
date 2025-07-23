@@ -1,12 +1,10 @@
 .navBar{
     background-color: #A03800;
     color: #f9f9f9;
-    padding: 0.625rem 1rem;
-    margin-top: 0.1rem;
+    padding: 1.6rem 1.6rem;
+    margin-top: 0.2rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
-
 
 .navContent {
     display: flex;
@@ -17,16 +15,17 @@
 
 .navCenter {
     display: flex;
-    gap: 2rem;
+    gap: 2.4rem;
     margin-top: 0.2rem;
+    font-size: 1.5rem;
 }
 
 .navLink {
     text-decoration: none;
     color: white;
     font-family: 'EB Garamond', serif;
-    position: relative;
-    padding-bottom: 4px;
+    /* position: relative; */
+    padding-bottom: 0.4rem;
 }
 
 .navLink:hover{
@@ -38,10 +37,10 @@
     color: white;
     font-family: 'EB Garamond', serif;
     font-weight: bolder;
-    position: relative;
-    padding-bottom: 4px;
-    text-decoration-thickness: .2rem;
-    text-underline-offset: .4rem;
+    /* position: relative; */
+    padding-bottom: 0.4rem;
+    text-decoration-thickness: .3rem;
+    text-underline-offset: .6rem;
 }
 
 .navIcon{
@@ -51,7 +50,8 @@
     top: 50%;
     transform: translateY(-50%);
     /* margin-top: .2rem; */
-    font-family: 'inter';
+    font-family: 'Quicksand';
+    font-size: 1.5rem;
     align-items: center;
 }
 
@@ -59,7 +59,7 @@
     fill: #DE8C60;
     cursor: pointer;
     transition: fill 0.3s ease;
-    margin-right: .2rem;
+    /* margin-right: .2rem; */
 }
 
 .customSvg:hover, .active{
