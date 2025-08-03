@@ -5,7 +5,8 @@ import RootLayout from "./pages/RootLayout";
 import EdonationPage from "./pages/Edonation";
 import AdminPage from "./pages/Admin";
 import About from "./pages/About";
-import Feedback from "./pages/Feedback";
+// import Feedback from "./pages/Feedback";
+import FeedbackModal from "./components/Home UI/FeedbackModal";
 
 function App() {
   const routes = createBrowserRouter([
@@ -17,7 +18,7 @@ function App() {
         { path: "/edonation", element: <EdonationPage /> },
         { path: "/admin", element: <AdminPage /> },
         { path: "/about", element: <About /> },
-        { path: "/feedback", element: <Feedback /> }
+        { path: "/feedback", element: <FeedbackModal /> }
       ],
     },
   ]);

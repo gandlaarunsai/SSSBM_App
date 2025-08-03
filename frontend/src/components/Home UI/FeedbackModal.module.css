@@ -1,0 +1,91 @@
+dialog::backdrop{
+    background-color: rgba(0, 0, 0, 0.692);
+}
+
+.FeedbackModal{
+    border: none;
+    align-self: center;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    width: 56%;
+}
+
+.Feedback_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'EB Garamond';
+    color: #2C201A;
+    font-size: larger;
+    font-weight: 900;
+    padding: 2rem 4rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.FeedbackModal_container{
+    padding: 2rem 4rem;
+}
+
+.Feedback_rating{
+    font-family: "quicksand";
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 2.4rem;
+}
+
+.Feedback_rating>p{
+    margin-bottom: 1rem;
+}
+
+.Feedback_rating>img{
+    width: 3.2rem;
+}
+
+.feedback_input{
+    margin-bottom: 2.4rem;
+}
+
+.feedback_input label{
+    font-family: 'Quicksand';
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.feedback{
+    display: block;
+    margin-top: 1rem;
+    border: #aaaaaa 1px solid;
+    width: 100%;
+    height: 8rem;
+    border-radius: 4px;
+}
+
+.feedbackForm{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.feedbackForm button{
+    font-family: 'Quicksand';
+    padding: 1.8rem 3.6rem;
+    border-radius: 6px;
+    border-style: none;
+}
+
+.submitBtn{
+    background-color: #D36930;
+    color: white;
+}
+
+.submitBtn:hover{
+    background-color: #C84600;
+    font-weight: 400;
+}
+
+.cancelBtn:hover{
+    background-color: #bbbbbb;
+    color: black;
+    font-weight: bold;
+}
