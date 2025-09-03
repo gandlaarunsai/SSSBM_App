@@ -3,8 +3,12 @@ import { createPortal } from 'react-dom';
 import classes from './FeedbackModal.module.css';
 
 import star from '../../asserts/star.svg';
+import { useNavigate } from 'react-router-dom';
 
 export default function FeedbackModal({ ref }) {
+
+    const navigate= useNavigate();
+
     return createPortal(
         <dialog ref={ref} className={classes.FeedbackModal}>
             <div className={classes.Feedback_header}>
@@ -20,7 +24,7 @@ export default function FeedbackModal({ ref }) {
                     <textarea id='feedback' name='feedback' className={classes.feedback} />
                 </div>
                 <form method='dialog' className={classes.feedbackForm}>
-                    <button className={classes.cancelBtn}>cancel</button>
+                    <button onClick={()=>navigate(-1)} className={classes.cancelBtn}>cancel</button>
                     <button className={classes.submitBtn}>Submit Feedback</button>
                 </form>
             </div>

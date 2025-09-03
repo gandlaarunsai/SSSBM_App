@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 import classes from './FooterInfo.module.css';
 
@@ -11,6 +11,7 @@ import FeedbackModal from "../Home UI/FeedbackModal";
 export default function FooterInfo() {
 
     const feedbackModal = useRef();
+    const location= useLocation();
 
     function handleFeedbackModal() {
         feedbackModal.current.showModal();
@@ -22,7 +23,12 @@ export default function FooterInfo() {
             <div className={classes.footerInfoCont}>
                 <div className={classes.footerLinks}>
                     <Link to="/about">About</Link>
-                    <Link to="/feedback" onClick={handleFeedbackModal}>Feedback</Link>
+                    <Link to="/feedback" 
+                        onClick={handleFeedbackModal} 
+                        state={{backgroundLocation: location}}
+                    >
+                        Feedback
+                    </Link>
                 </div>
                 <div className={classes.socialMediaLinks}>
                     <Link to="">
