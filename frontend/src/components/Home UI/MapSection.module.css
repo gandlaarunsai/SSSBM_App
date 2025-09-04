@@ -9,7 +9,7 @@
     background-color: #de6120;
     border-radius: 1rem;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-    padding: 2.4rem;
+    padding: 3rem;
     color: white;
     /* max-width: 64rem; */
     /* margin: 0 4rem 2rem ; */
@@ -31,6 +31,7 @@
 .textContainer {
     flex: 1;
     align-self: flex-start;
+    margin-right: .8rem;
 }
 
 .textContainer h2 {
@@ -44,4 +45,5 @@
     font-size: 1.2rem;
     font-weight: lighter;
     line-height: 1.6;
+    text-align: justify;
 }
