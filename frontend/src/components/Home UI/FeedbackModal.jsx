@@ -17,6 +17,10 @@ export default function FeedbackModal({ ref }) {
             <div className={classes.FeedbackModal_container}>
                 <div className={classes.Feedback_rating}>
                     <p>How well is the website helping you?</p>
+                    <img src={star} alt='star'/>
+                    <img src={star} alt='star' />
+                    <img src={star} alt='star' />
+                    <img src={star} alt='star' />
                     <img src={star} alt='star' />
                 </div>
                 <div className={classes.feedback_input}>
