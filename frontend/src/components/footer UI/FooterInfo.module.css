@@ -14,7 +14,9 @@
 }
 
 .footerLinks a:hover{
-    font-weight: 900;
+    /* font-weight: 900; */
+    text-decoration: underline;
+    text-underline-offset: .8rem;
 }
 
 .socialMediaLinks img{
