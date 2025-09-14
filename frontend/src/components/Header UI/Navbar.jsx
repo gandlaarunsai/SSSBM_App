@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 import classes from './Navbar.module.css';
 
-import { ReactComponent as AdminIcon } from '../asserts/account_circle_24dp_fill.svg';
+import { ReactComponent as AdminIcon } from '../../asserts/account_circle_24dp_fill.svg';
 
 export default function Navbar() {
 
