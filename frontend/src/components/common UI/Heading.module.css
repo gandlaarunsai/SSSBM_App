@@ -1,0 +1,16 @@
+.heading_container{
+    margin-bottom: 1.6rem;
+}
+
+.heading_container>h4{
+    font-family: 'EB Garamond';
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+
+
+.heading_underLine{
+    background: linear-gradient(to right, #C84600, #FAE4D9);
+    height: 5px;
+    margin: .8rem 0;
+}
