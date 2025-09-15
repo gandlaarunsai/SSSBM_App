@@ -8,18 +8,76 @@
     margin-bottom: 2.4rem;
 }
 
+.donation_inputs{
+    display: flex;
+    gap: 1.6rem;
+}
+
 .name{
     display: flex;
     gap: 3.2rem;
     margin-bottom: .8rem;
 }
 
-.devotee_details, .contact_details{
+.devotee_details, .contact_details, .address_details{
     margin-bottom: 2.4rem;
 }
 
 .addr_inputs{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 1.6rem;
+}
+
+.Line1, .Line2, .Line3{
+    display: flex;
+    gap: 1.6rem;
+}
+
+.odd{
+    align-self: flex-start;
+    width: 49%;
+}
+
+.checkbox{
+    display: flex;
+    gap: 0.8rem;
+    font-family: 'Quicksand';
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1.6rem;
+}
+
+.Buttons{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.6rem;
+}
+
+.Buttons>button{
+    border-style: none;
+    padding: 1.6rem;
+    font-family: 'EB Garamond';
+    font-size: medium;
+    font-weight: 700;
+    border-radius: 0.8rem;
+}
+
+.NextBtn{
+    background-color: #D36930;
+    color: #fff;
+}
+
+.NextBtn:hover{
+    background-color: #C84600;
+}
+
+.cancelBtn{
+    color: #898380;
+}
+
+.cancelBtn:hover{
+    background-color: #C4C1BF;
+    color: #4F4540;
 }
