@@ -47,3 +47,9 @@
     line-height: 1.6;
     text-align: justify;
 }
+
+@media (width <792px){
+    .textContainer h2{
+        font-size: large;
+    }
+}

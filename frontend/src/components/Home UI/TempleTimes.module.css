@@ -31,3 +31,9 @@
 .time{
     flex-shrink: 0;
 }
+
+@media (width < 792px){
+    .separator{
+        margin-right: 2rem;
+    }
+}
