@@ -1,8 +1,8 @@
-import Logo from "../asserts/final_logo_v1.png";
-import rail_right from "../asserts/Railing_right.png";
-import rail_left from "../asserts/Railing_left.png";
-import arch_right from "../asserts/archIcons_right.png";
-import arch_left from "../asserts/archIcons_left.png";
+import Logo from "../../asserts/final_logo_v1.png";
+import rail_right from "../../asserts/Railing_right.png";
+import rail_left from "../../asserts/Railing_left.png";
+import arch_right from "../../asserts/archIcons_right.png";
+import arch_left from "../../asserts/archIcons_left.png";
 
 import classes from './Header.module.css';
 
