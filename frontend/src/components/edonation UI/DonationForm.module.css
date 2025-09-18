@@ -1,0 +1,13 @@
+.grid_template{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.6rem 2.4rem;
+}
+
+.donation_details{
+    margin-bottom: 2.4rem;
+}
+
+.devotee_details, .contact_details, .address_details{
+    margin-bottom: 2.4rem;
+}
