@@ -8,6 +8,7 @@ import About from "./pages/About";
 // import Feedback from "./pages/Feedback";
 import FeedbackModal from "./components/Home UI/FeedbackModal";
 import AppRoutes from "./AppRoutes";
+import DonationConfirmation from "./pages/DonationConfirmation";
 
 export const routes = [
   {
@@ -16,9 +17,10 @@ export const routes = [
     children: [
       { path: "/", element: <HomePage /> },
       { path: "/edonation", element: <EdonationPage /> },
+      { path: "/edonation/confirmation", element: <DonationConfirmation/>},
       { path: "/admin", element: <AdminPage /> },
       { path: "/about", element: <About /> },
-      { path: "/feedback", element: <FeedbackModal /> }
+      { path: "/feedback", element: <FeedbackModal /> },
     ],
   },
 ];
