@@ -7,7 +7,7 @@ export default function RootLayout() {
 
     const mainStyle = {
         padding: "4rem",
-        "max-width": "94.4rem",
+        // "max-width": "94.4rem",
         "align-self": "center"
     };
 
