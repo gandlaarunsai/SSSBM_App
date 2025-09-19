@@ -89,3 +89,30 @@ dialog::backdrop{
     color: black;
     font-weight: bold;
 }
+
+@media(width<728px){
+    .feedbackForm{
+        flex-direction: column-reverse;
+        align-items: stretch;
+    }
+}
+
+@media(width<554px){
+    .FeedbackModal{
+        width: 75%;
+    }
+    .Feedback_header{
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+}
+
+@media(width<480px){
+    .FeedbackModal_container{
+        padding: 1.6rem 2.4rem;
+    }
+    .Feedback_header{
+        font-size: 1.2rem;
+        padding: 1.6rem 2.4rem;
+    }
+}

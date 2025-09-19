@@ -53,3 +53,27 @@
         width: 24rem;
     }
 }
+
+@media(width<556px){
+    .railings>img{
+        width: 16rem;
+    }
+
+    #title{
+        margin-bottom: 1.6rem;
+    }
+}
+
+@media(width<480px){
+    #title{
+        flex-direction: column;
+    }
+    #title>img{
+        width: 6rem;
+        margin-right: 0;
+        margin-bottom: .8rem;
+    }
+    #title>h1{
+        font-size: 1.8rem;
+    }
+}

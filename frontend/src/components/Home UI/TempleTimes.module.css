@@ -51,3 +51,15 @@
         flex: .5 1;
     }
 }
+
+@media(width<480px){
+    .timesContent{
+        font-size: 1.1rem;
+    }
+}
+
+@media(width<400px){
+    .timesContent{
+        font-size: 1rem;
+    }
+}

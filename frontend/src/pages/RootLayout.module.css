@@ -2,3 +2,15 @@
     padding: 4rem;
     align-self: center;
 }
+
+@media(width<614px){
+    .rootLayout_main{
+        padding: 2em;
+    }
+}
+
+@media(width<400px){
+    .rootLayout_main{
+        padding: 1.5em;
+    }
+}

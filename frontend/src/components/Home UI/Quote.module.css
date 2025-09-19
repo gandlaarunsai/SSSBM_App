@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Quicksand:wght@300..700&display=swap');
 
 .quote{
-    margin-bottom: 4rem;
+    margin-bottom: 2.4rem;
 }
 
 .Qheading{
@@ -15,4 +15,14 @@
     font-size: 1.2rem;
     font-weight: 500;
     padding-left: 0.3rem;
+}
+
+@media(width<480px){
+    .Qheading{
+        font-size: large;
+    }
+
+    .quote>p{
+        font-size: 1.1rem;
+    }
 }

@@ -14,3 +14,9 @@
     padding: 1.5rem 2rem;
     margin-left: 1.6rem;
 }
+
+@media(width<480px){
+    .Ulist{
+        font-size: 1.1rem;
+    }
+}

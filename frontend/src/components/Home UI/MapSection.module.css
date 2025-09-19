@@ -59,3 +59,9 @@
         gap: 0;
     }
 }
+
+@media(width<400px){
+    .textContainer>h2{
+        margin: 1.6rem 0 .8rem;
+    }
+}

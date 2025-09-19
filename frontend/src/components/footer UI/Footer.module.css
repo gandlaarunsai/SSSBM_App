@@ -24,3 +24,12 @@
     letter-spacing: 0.1rem;
     font-weight: lighter;
 }
+
+@media(width<400px){
+    .copyrightCont>h6{
+        font-size: 1.1rem;
+    }
+    .copyrightCont>img{
+        width: 1.2rem;
+    }
+}
