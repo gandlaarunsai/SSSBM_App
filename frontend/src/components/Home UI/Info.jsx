@@ -1,4 +1,5 @@
 import classes from './Info.module.css';
+
 import TempleTimings from './TempleTimes';
 import Updates from './Updates';
 

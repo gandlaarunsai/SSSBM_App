@@ -47,3 +47,9 @@
 .railings>img{
     width: 30rem;
 }
+
+@media(width<728px){
+    .railings>img{
+        width: 24rem;
+    }
+}

@@ -4,3 +4,9 @@
     gap: 0.8rem;
     justify-content: space-between;
 }
+
+@media(width<728px){
+    .info{
+        flex-direction: column-reverse;
+    }
+}

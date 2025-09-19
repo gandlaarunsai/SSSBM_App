@@ -37,3 +37,17 @@
         margin-right: 2rem;
     }
 }
+
+@media(width<728px){
+    .row{
+        justify-content: space-evenly;
+    }
+    
+    .actions{
+        flex: 0.3 1;
+    }
+
+    .separator{
+        flex: .5 1;
+    }
+}
